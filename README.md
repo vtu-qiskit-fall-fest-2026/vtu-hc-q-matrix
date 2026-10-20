@@ -307,6 +307,6 @@ Released under the [MIT License](LICENSE). See `LICENSE` for details.
 **Q-matrix** · Team ID `VTU-QFF-HC-0024` · Tier `Both`
 · Built with ⚛️ Qiskit for the VTU-QFF Hackathon
 
-[⬆ Back to Top](#Q-matrix)
+[⬆ Back to Top](#q-matrix)
 
 </div>
