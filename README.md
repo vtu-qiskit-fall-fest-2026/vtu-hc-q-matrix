@@ -46,9 +46,9 @@
 
 | # | Name | GitHub Username | Role |
 | :-- | :--- | :--- | :--- |
-| 1 | _Add your name_ | _your-github-username_ | _Team Lead_ |
-| 2 | _Add your name_ | _your-github-username_ | _Developer_ |
-| 3 | _Add your name_ | _your-github-username_ | _Developer_ |
+| 1 | Chinmay R | ChinmayRERC | _Team Lead_ |
+| 2 | M Naveen | Naveenmuchetty-67 | _Developer 1_ |
+| 3 | Thulasi Ram M  | Ram0528 | _Developer 2_ |
 
 <!--
 Optional: add a plain list instead of the table above.
@@ -60,13 +60,17 @@ Optional: add a plain list instead of the table above.
 
 ## ❓ Problem Statement
 
-<!--
-State the problem you are solving. Be specific: what is broken or missing,
-who experiences it, and why does it matter. Link to the official problem
-statement from the brief if one applies.
--->
+AI-Based Interactive Quantum Algorithm Learning Platform
 
-**Problem:** _Describe the problem in 2–3 sentences._
+**Problem Description:** Background Quantum computing is a transformative technology with significant impact across scientific and industrial domains. However, education in this field remains challenging due to the abstract nature of core concepts such as qubits, superposition, entanglement, and quantum algorithms.
+
+Existing learning resources are often static, heavily theoretical, and lack hands-on interaction.
+
+Limited access to real quantum hardware further restricts practical learning. There is a strong need for an integrated, interactive, and intelligent platform that combines theoretical instruction, visual circuit design, real-time simulation, and personalized AI-based guidance to accelerate quantum education and workforce development.
+
+Description The goal is to develop an AI-powered interactive web-based platform that enables students, researchers, and professionals to learn, design, simulate, and visualize quantum algorithms.
+
+The platform will offer structured learning modules covering quantum computing fundamentals, circuit design, and standard quantum algorithms. Users will be able to construct quantum circuits through a drag-and-drop interface or by writing code, execute them on multiple quantum simulators, and visualize quantum states and measurement outcomes. AI-assisted features will provide real-time explanations, error detection, optimization suggestions,and personalized learning paths. The system will support major quantum software development kits and promote collaborative and modular learning.._
 
 **Why it matters:** _Explain the impact or opportunity._
 
@@ -76,10 +80,15 @@ statement from the brief if one applies.
 
 ## 💡 Proposed Solution
 
-<!--
-Describe your solution. Keep it concrete: the core idea, the user flow, and
-the quantum/ML technique you are applying.
--->
+Objectives
+
+• Design and develop an interactive web-based platform for learning quantum computing and quantum algorithms.
+• Provide graphical (drag-and-drop) and code-based quantum circuit design tools.
+• Enable real-time execution and simulation of quantum circuits using multiple backends(Qiskit Aer, PennyLane, Cirq, qBraid, etc.).
+• Integrate AI-assisted tutoring for concept explanation, code generation, debugging, and personalized learning recommendations.
+• Support visualization of quantum states, Bloch spheres, measurement probabilities, and circuit execution results. Include assessment modules, coding challenges, progress tracking, and instructor dashboards.
+
+Expected Solution A comprehensive AI-based interactive quantum learning platform that seamlessly integrates education, programming, simulation, visualization, and intelligent tutoring. The solution will offer structured theoretical content, visual circuit builders, integrated code editors, multi-framework simulation support, AI-powered assistance, assessment tools, and progress analytics. The platform will be designed to be scalable and accessible, contributing to the development of a quantum-ready workforce.
 
 **Solution:** _In 2–3 sentences, describe what you built._
 
