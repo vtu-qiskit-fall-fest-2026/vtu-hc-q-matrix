@@ -103,6 +103,12 @@ def health() -> dict[str, str]:
     return {"status": "ok", "simulator": "statevector"}
 
 
+@app.get("/health", include_in_schema=False)
+def platform_health() -> dict[str, str]:
+    """Conventional health-check path for hosts and container orchestrators."""
+    return health()
+
+
 @app.get("/api/experiments")
 def experiments() -> dict[str, object]:
     stages = ["Aim", "Theory", "Pretest", "Procedure", "Simulation", "Posttest", "References"]

@@ -6,6 +6,11 @@ from backend.main import app
 client = TestClient(app)
 
 
+def test_health_aliases():
+    assert client.get("/health").json()["status"] == "ok"
+    assert client.get("/api/health").json()["status"] == "ok"
+
+
 def test_bell_state_simulation():
     response = client.post("/api/simulate", json={
         "qubits": 2, "shots": 256,
