@@ -2,6 +2,22 @@
 
 **VTU-QFF-HC-0024** | Tier: **Both**
 
+> **Implementation status:** working hackathon MVP on `feature/quantumquest-platform`. The repository now includes the gamified React frontend, FastAPI backend, statevector simulation, AI-tutor contract, complete curriculum graph, and interactive quantum-machine anatomy.
+
+### Quick start
+
+```bash
+# Terminal 1
+python -m uvicorn backend.main:app --reload --port 8000
+
+# Terminal 2
+cd frontend
+npm install
+npm run dev
+```
+
+Open <http://localhost:3000>. FastAPI documentation is available at <http://localhost:8000/docs>.
+
 ---
 
 | | |
